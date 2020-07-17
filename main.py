@@ -44,9 +44,9 @@ def fire():
     bullet_count = bullet_count - 1
     if bullet_count <= 0:
         game_over = 1
-        weapon.write('Game over', align="center", font=('Courier', 30))
+        weapon.write('Death', align="center", font=('Courier', 30))
     else:
-        weapon.write(f'Bullets: {bullet_count}', align="center", font=('Courier', 30))
+        weapon.write(f'Shots: {bullet_count}', align="center", font=('Courier', 30))
 
 
 window.listen()
