@@ -1,3 +1,3 @@
 import os
-import random
+#remove import
 os.system("killall afplay")
